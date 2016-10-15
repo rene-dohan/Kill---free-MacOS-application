@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Kill' target in the 'Kill' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

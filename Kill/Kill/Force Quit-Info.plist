@@ -9,7 +9,7 @@
 	<key>CFBundleIconFile</key>
 	<string>Button-Delete-icon</string>
 	<key>CFBundleIdentifier</key>
-	<string>creative-studio.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>renetik-software.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

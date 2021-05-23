@@ -20,23 +20,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04BFB205265AD8B100D4E8E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		3165A1798D854916C984718F /* Remove Icon red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Remove Icon red.png"; sourceTree = "<group>"; };
 		3165AA55F5DF4888559BE7B1 /* Remove Icon black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Remove Icon black.png"; sourceTree = "<group>"; };
 		9A1C06D516D0E5FC00329473 /* Button-Delete-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Delete-icon.png"; sourceTree = "<group>"; };
 		9A1C06D716D0E63400329473 /* Button-Delete-icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Button-Delete-icon.icns"; sourceTree = "<group>"; };
-		9A44FCE316CFA83500A085D0 /* Kill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A44FCE316CFA83500A085D0 /* Force Quit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Force Quit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A44FCE616CFA83500A085D0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		9A44FCE916CFA83500A085D0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		9A44FCEA16CFA83500A085D0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		9A44FCEB16CFA83500A085D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		9A44FCEE16CFA83500A085D0 /* Kill-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kill-Info.plist"; sourceTree = "<group>"; };
+		9A44FCEE16CFA83500A085D0 /* Force Quit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Force Quit-Info.plist"; sourceTree = "<group>"; };
 		9A44FCF016CFA83500A085D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A44FCF216CFA83500A085D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9A44FCF416CFA83500A085D0 /* Kill-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kill-Prefix.pch"; sourceTree = "<group>"; };
+		9A44FCF416CFA83500A085D0 /* Force Quit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Force Quit-Prefix.pch"; sourceTree = "<group>"; };
 		9A44FCF616CFA83500A085D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		9A44FCF816CFA83500A085D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A44FCF916CFA83500A085D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9A44FCFC16CFA83500A085D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 		9A44FCE416CFA83500A085D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A44FCE316CFA83500A085D0 /* Kill.app */,
+				9A44FCE316CFA83500A085D0 /* Force Quit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,10 +105,10 @@
 		9A44FCED16CFA83500A085D0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9A44FCEE16CFA83500A085D0 /* Kill-Info.plist */,
+				9A44FCEE16CFA83500A085D0 /* Force Quit-Info.plist */,
 				9A44FCEF16CFA83500A085D0 /* InfoPlist.strings */,
 				9A44FCF216CFA83500A085D0 /* main.m */,
-				9A44FCF416CFA83500A085D0 /* Kill-Prefix.pch */,
+				9A44FCF416CFA83500A085D0 /* Force Quit-Prefix.pch */,
 				9A44FCF516CFA83500A085D0 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -117,9 +117,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A44FCE216CFA83500A085D0 /* Kill */ = {
+		9A44FCE216CFA83500A085D0 /* Force Quit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A44FD0016CFA83500A085D0 /* Build configuration list for PBXNativeTarget "Kill" */;
+			buildConfigurationList = 9A44FD0016CFA83500A085D0 /* Build configuration list for PBXNativeTarget "Force Quit" */;
 			buildPhases = (
 				9A44FCDF16CFA83500A085D0 /* Sources */,
 				9A44FCE016CFA83500A085D0 /* Frameworks */,
@@ -129,9 +129,9 @@
 			);
 			dependencies = (
 			);
-			name = Kill;
+			name = "Force Quit";
 			productName = Kill;
-			productReference = 9A44FCE316CFA83500A085D0 /* Kill.app */;
+			productReference = 9A44FCE316CFA83500A085D0 /* Force Quit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -140,7 +140,7 @@
 		9A44FCDB16CFA83500A085D0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = creative_studio;
 				TargetAttributes = {
 					9A44FCE216CFA83500A085D0 = {
@@ -149,19 +149,20 @@
 					};
 				};
 			};
-			buildConfigurationList = 9A44FCDE16CFA83500A085D0 /* Build configuration list for PBXProject "Kill" */;
+			buildConfigurationList = 9A44FCDE16CFA83500A085D0 /* Build configuration list for PBXProject "Force Quit" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 9A44FCDA16CFA83500A085D0;
 			productRefGroup = 9A44FCE416CFA83500A085D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A44FCE216CFA83500A085D0 /* Kill */,
+				9A44FCE216CFA83500A085D0 /* Force Quit */,
 			);
 		};
 /* End PBXProject section */
@@ -215,7 +216,7 @@
 		9A44FCFB16CFA83500A085D0 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9A44FCFC16CFA83500A085D0 /* en */,
+				04BFB205265AD8B100D4E8E9 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -227,19 +228,34 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -248,7 +264,9 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
@@ -260,22 +278,38 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
@@ -289,10 +323,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 4QNB24D8D8;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Kill/Kill-Prefix.pch";
-				INFOPLIST_FILE = "Kill/Kill-Info.plist";
+				GCC_PREFIX_HEADER = "Kill/Force Quit-Prefix.pch";
+				INFOPLIST_FILE = "Kill/Force Quit-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "creative-studio.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
@@ -306,10 +343,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 4QNB24D8D8;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Kill/Kill-Prefix.pch";
-				INFOPLIST_FILE = "Kill/Kill-Info.plist";
+				GCC_PREFIX_HEADER = "Kill/Force Quit-Prefix.pch";
+				INFOPLIST_FILE = "Kill/Force Quit-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "creative-studio.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
@@ -319,7 +359,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A44FCDE16CFA83500A085D0 /* Build configuration list for PBXProject "Kill" */ = {
+		9A44FCDE16CFA83500A085D0 /* Build configuration list for PBXProject "Force Quit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A44FCFE16CFA83500A085D0 /* Debug */,
@@ -328,7 +368,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A44FD0016CFA83500A085D0 /* Build configuration list for PBXNativeTarget "Kill" */ = {
+		9A44FD0016CFA83500A085D0 /* Build configuration list for PBXNativeTarget "Force Quit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A44FD0116CFA83500A085D0 /* Debug */,
